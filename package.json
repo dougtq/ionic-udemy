@@ -34,5 +34,9 @@
     "@ionic/app-scripts": "2.1.4",
     "typescript": "2.3.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougtq/ionic-udemy.git"
+  },
   "description": "An Ionic project"
 }
