@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { ExampleComponent } from './example/example';
+import { DataFormComponent } from './data-form/data-form';
 @NgModule({
-	declarations: [ExampleComponent],
+	declarations: [ExampleComponent,
+    DataFormComponent],
 	imports: [],
-	exports: [ExampleComponent]
+	exports: [ExampleComponent,
+    DataFormComponent]
 })
 export class ComponentsModule {}
